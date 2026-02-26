@@ -1,4 +1,5 @@
 Wedding Crunchers Data Analysis
+
 📌 Project Overview
 
 This project performs end-to-end exploratory data analysis (EDA) on wedding industry data to uncover trends in cost distribution, seasonality impact, guest size influence, and geographic patterns across Indian cities.
