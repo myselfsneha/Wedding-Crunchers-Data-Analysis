@@ -1,51 +1,41 @@
 <div align="center">
 
-# WEDDING CRUNCHERS
-### A closer look at the wedding budget.
+# 💍 Wedding Crunchers Data Analysis
 
-*An exploratory data analysis project built with Python — with a little editorial-luxury energy.*
+*Exploring wedding budgets, guest counts, seasonality and location with Python.*
 
 ![Python](https://img.shields.io/badge/Python-702D3C?style=flat-square&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-292321?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-C9A96E?style=flat-square&logo=numpy&logoColor=292321)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-7D8975?style=flat-square)
 ![Seaborn](https://img.shields.io/badge/Seaborn-B9787D?style=flat-square)
+![GeoPandas](https://img.shields.io/badge/GeoPandas-8C7468?style=flat-square)
 
 </div>
 
 ---
 
-## The idea
+## About the project
 
-Wedding budgets bring together a lot of moving parts. This project explores how to inspect and visualise those numbers — from the cost breakdown to differences between city and season labels.
+Wedding Crunchers is a Jupyter Notebook project exploring wedding expenses and how they can be compared across cost components, guest counts, seasons and city labels. The analysis uses Python and data visualisation to practise an end-to-end exploratory workflow.
 
-**One important note:** the current dataset contains **500 synthetic records generated in Python**. It is a learning dataset, not a collection of real wedding transactions. The charts are useful for practising analysis, but they cannot establish real wedding-market trends.
+**Dataset attribution:** This project uses a dataset sourced from Kaggle. Add the exact Kaggle dataset title and source URL here so the original creator receives proper credit.
 
-## Inside the notebook
+## What's included
 
-| Chapter | What it explores |
-| --- | --- |
-| **Data check** | Sample size, missing values, duplicate IDs and summary statistics |
-| **Budget breakdown** | Venue, catering, decor and photography costs |
-| **Cost distribution** | Mean, median, range and overall budget spread |
-| **Guest count** | A visual and correlation check against total cost |
-| **City comparison** | Descriptive summaries by generated city label |
-| **Season comparison** | Cost distribution across generated season labels |
-| **Relationships** | Correlations between component costs and their calculated total |
-| **Limitations** | What the sample can — and cannot — tell us |
+- Initial data inspection and missing-value checks
+- Summary statistics and cost-component comparisons
+- Wedding cost distribution
+- Guest count and total-cost exploration
+- City-wise and season-wise comparisons
+- Correlation heatmap
+- Geographic exploration with GeoPandas
 
-## The visual direction
+## Tools used
 
-Warm paper tones, deep wine, muted rose and champagne accents give the notebook a more considered editorial feel. The goal is to make the charts easier to read without turning a data project into a wall of decoration.
+Python · Pandas · NumPy · Matplotlib · Seaborn · GeoPandas · Jupyter Notebook
 
-## Stack
-
-- **Python** — analysis workflow
-- **Pandas & NumPy** — data generation, preparation and summaries
-- **Matplotlib & Seaborn** — visual exploration
-- **Jupyter Notebook** — documented, reproducible workflow
-
-## Project files
+## Repository contents
 
 ```text
 Wedding-Crunchers-Data-Analysis/
@@ -54,20 +44,24 @@ Wedding-Crunchers-Data-Analysis/
 └── wedding_data.csv
 ```
 
-The notebook writes `wedding_data.csv` to its current working directory when run.
+## A note on interpretation
 
-## What comes next
+The notebook contains exploratory charts and comparisons. Any claims about seasonal, city-level or guest-count patterns should be supported by the actual dataset and the calculations in the notebook. Geographic maps based on city labels or representative city coordinates show location context; they do not by themselves establish where premium weddings are concentrated.
 
-A stronger next iteration would use a documented, permissioned real dataset. That would make it possible to test genuine cost drivers, compare locations more responsibly, and decide whether forecasting is appropriate. A prediction model is **not presented as a result yet** because the current synthetic data does not support a meaningful market forecast.
+## Future ideas
 
-## About
+- Improve the chart styling and notebook narrative
+- Add a dashboard after validating the analysis
+- Consider prediction only if the dataset and target variable support it
+
+## Author
 
 **Sneha Singh**
 
-- Portfolio: [myselfsneha.github.io/sneha-portfolio](https://myselfsneha.github.io/sneha-portfolio/)
+- Portfolio: [sneha-portfolio](https://myselfsneha.github.io/sneha-portfolio/)
 - LinkedIn: [singh--sneha](https://www.linkedin.com/in/singh--sneha/)
 - GitHub: [@myselfsneha](https://github.com/myselfsneha)
 
 ---
 
-<sub>Made for learning, analysis and better data storytelling.</sub>
+<sub>Built in Jupyter Notebook for learning and exploratory data analysis.</sub>
