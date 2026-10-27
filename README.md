@@ -1,119 +1,73 @@
-# 💍 Wedding Crunchers Data Analysis
+<div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
-![GeoPandas](https://img.shields.io/badge/GeoPandas-139C5A?style=for-the-badge)
+# WEDDING CRUNCHERS
+### A closer look at the wedding budget.
 
-An exploratory data analysis (EDA) project that examines wedding industry data to uncover trends in costs, guest counts, seasonal patterns, and geographical distribution using Python and data visualization libraries.
+*An exploratory data analysis project built with Python — with a little editorial-luxury energy.*
 
----
+![Python](https://img.shields.io/badge/Python-702D3C?style=flat-square&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-292321?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-C9A96E?style=flat-square&logo=numpy&logoColor=292321)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-7D8975?style=flat-square)
+![Seaborn](https://img.shields.io/badge/Seaborn-B9787D?style=flat-square)
 
-## 📖 Overview
-
-This project performs end-to-end exploratory data analysis on wedding industry data to derive actionable insights for smarter wedding planning and budget optimization.
-
-The analysis includes data cleaning, feature engineering, statistical exploration, and visualization to identify the factors influencing wedding expenses across different cities and seasons.
+</div>
 
 ---
 
-## ✨ Features
+## The idea
 
-### 📊 Exploratory Data Analysis
+Wedding budgets bring together a lot of moving parts. This project explores how to inspect and visualise those numbers — from the cost breakdown to differences between city and season labels.
 
-- Data Cleaning & Preprocessing
-- Missing Value Handling
-- Feature Engineering
-- Statistical Analysis
+**One important note:** the current dataset contains **500 synthetic records generated in Python**. It is a learning dataset, not a collection of real wedding transactions. The charts are useful for practising analysis, but they cannot establish real wedding-market trends.
 
-### 📈 Data Visualization
+## Inside the notebook
 
-- Cost Trend Analysis
-- Seasonal Analysis
-- Guest Count Analysis
-- Correlation Heatmap
-- Geospatial Visualization
+| Chapter | What it explores |
+| --- | --- |
+| **Data check** | Sample size, missing values, duplicate IDs and summary statistics |
+| **Budget breakdown** | Venue, catering, decor and photography costs |
+| **Cost distribution** | Mean, median, range and overall budget spread |
+| **Guest count** | A visual and correlation check against total cost |
+| **City comparison** | Descriptive summaries by generated city label |
+| **Season comparison** | Cost distribution across generated season labels |
+| **Relationships** | Correlations between component costs and their calculated total |
+| **Limitations** | What the sample can — and cannot — tell us |
 
-### 📍 Geographic Analysis
+## The visual direction
 
-- City-wise Wedding Cost Analysis
-- Metro vs Non-Metro Comparison
-- Geospatial Cost Mapping using GeoPandas
+Warm paper tones, deep wine, muted rose and champagne accents give the notebook a more considered editorial feel. The goal is to make the charts easier to read without turning a data project into a wall of decoration.
 
----
+## Stack
 
-## 🛠 Tech Stack
+- **Python** — analysis workflow
+- **Pandas & NumPy** — data generation, preparation and summaries
+- **Matplotlib & Seaborn** — visual exploration
+- **Jupyter Notebook** — documented, reproducible workflow
 
-### Programming Language
-
-- Python
-
-### Libraries
-
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- GeoPandas
-
-### Development Environment
-
-- Jupyter Notebook
-
----
-
-## 📂 Project Structure
+## Project files
 
 ```text
-Wedding-Crunchers-Data-Analysis
-│
-├── data
-│   └── wedding_data.csv
-│
-├── notebooks
-│   └── Wedding_Crunchers_Data_Analysis.ipynb
-│
-└── README.md
+Wedding-Crunchers-Data-Analysis/
+├── README.md
+├── Wedding-Crunchers-Data-Analysis.ipynb
+└── wedding_data.csv
 ```
 
----
+The notebook writes `wedding_data.csv` to its current working directory when run.
 
-## 📌 Key Insights
+## What comes next
 
-- 💰 Venue and catering contribute the largest share of wedding expenses.
-- 🌦 Wedding costs vary significantly across cities and seasons.
-- 👥 Guest count shows a strong positive relationship with total wedding cost.
-- 🏙 Metro cities have a higher average cost per guest than non-metro cities.
-- 🗺 Geospatial analysis highlights the concentration of premium weddings in urban areas.
+A stronger next iteration would use a documented, permissioned real dataset. That would make it possible to test genuine cost drivers, compare locations more responsibly, and decide whether forecasting is appropriate. A prediction model is **not presented as a result yet** because the current synthetic data does not support a meaningful market forecast.
 
----
-
-## 🚀 Future Enhancements
-
-- Machine Learning model for wedding cost prediction
-- Interactive Streamlit dashboard
-- Power BI dashboard integration
-- Automated reporting
-- Advanced statistical analysis
-
----
-
-## 👩‍💻 Author
+## About
 
 **Sneha Singh**
 
-🌐 Portfolio: https://myselfsneha.github.io/sneha-portfolio/
-
-💼 LinkedIn: https://www.linkedin.com/in/singh--sneha/
-
-💻 GitHub: https://github.com/myselfsneha
+- Portfolio: [myselfsneha.github.io/sneha-portfolio](https://myselfsneha.github.io/sneha-portfolio/)
+- LinkedIn: [singh--sneha](https://www.linkedin.com/in/singh--sneha/)
+- GitHub: [@myselfsneha](https://github.com/myselfsneha)
 
 ---
 
-## 📄 License
-
-This project was developed for educational and learning purposes.
-
-⭐ If you found this project useful, consider giving it a star!
+<sub>Made for learning, analysis and better data storytelling.</sub>
